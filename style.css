@@ -1,0 +1,155 @@
+/* stack overflow has recomended to use to start with zero padding for monile*/
+*{
+    padding: 0;
+    margin: 0;
+}
+/* background in red and text font for all next in the page for mobiles*/
+body{
+    background: url(images/background.jpeg);
+    font-family: "Audiowide", sans-serif;
+}
+#hr{
+    border-width: 0px;
+    margin: 5px;
+    
+}
+#title{
+    font-size: 60px;
+    font-family: bold;
+    color: #000000;
+    margin: 15px 5px;
+    padding: 15px 5px;
+}
+
+#Leve1-button{
+    font-size: 55px;
+    font-family: Bondoni MT Black;
+    border-radius: 50%;
+    padding: 5px 45px;
+    margin: 30px;
+    display: inline-flex;
+    color: black;
+}
+#Level-button:active{ /* active means button changes color when its being clicked*/
+    border-color: rgb(220, 220,220);
+}
+#instructions{
+    font-size: 22px;
+    color: green;
+    margin-top: -5px;
+}
+#time{
+    font-size: 20px;
+    border: 3.5px;
+    border-style: outset;
+    color: green;
+    padding: 10px;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+#score{
+    font-size: 20px;
+    border: 3.5px;
+    border-style: outset;
+    color: green;
+    padding: 10px;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+#equation{
+    font-size: 40px;
+    border: 7px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    
+    border-style: outset;
+    border-color: rgb(10,10,10);
+    border-radius: 3cm;
+    color: white;
+    
+    width: 300px;
+    margin: auto;
+}
+#option1, #option2, #option3, #option4{
+    font-family: "Century Gothic", CenturyGothic, AappleGothic, sans-serif;
+    font-weight: bold;
+    border: 5px;
+    background-color: transparent;
+    color: rgb(255,255,255);
+    border-style: outset;
+    border-color: aliceblue;
+    
+    font-size: 28px;
+    width: 74px;
+    margin: 5px;
+    padding: 11px;
+    overflow: hidden;
+}
+/* when the user click on the option, the color of the button will change to a darker white*/
+#option1:active{
+    border-color: rgb(220,220,220);
+    color: rgb(220,220,220);
+}
+#option2:active{
+    border-color: rgb(220,220,220);
+    color: rgb(220,220,220);
+}
+#optiona3:active{
+    border-color: rgb(220,220,220);
+    color: rgb(220,220,220);
+}
+#option4:active{
+    border-color: rgb(220,220,220);
+    color: rgb(220,220,220);
+}
+/* option buttons when they are disabled, slighly darker*/
+#option1:active{
+    border-color: rgb(205,205,205);
+    color: rgb(205,205,205);
+}
+#optiona2:active{
+    border-color: rgb(205,205,205);
+    color: rgb(205,205,205);
+}
+#option3:active{
+    border-color: rgb(205,205,205);
+    color: rgb(205,205,205);
+}
+#option4:active{
+    border-color: rgb(205,205,205);
+    color: rgb(205,205,205);
+}
+#completed{
+    font-size: 45px;
+    font-family: "Century Gothic", CenturyGothic, AappleGothic, sans-serif;
+    font-weight: bold;
+    border: 8px;
+    background-color: transparent;
+    color: rgb(0,0,0);
+    border-style: outset;
+    border-color: rgb(0,0,0);
+    
+    margin: 5px auto;
+    padding: 5px 0px;
+    text-align: center;
+    width: 325px;
+}
+#next-question{
+    font-size: 45px;
+    font-family: "Century Gothic", CenturyGothic, AappleGothic, sans-serif;
+    font-weight: bold;
+    border: 8px;
+    background-color: transparent;
+    color: rgb(0,0,0);
+    border-style: outset;
+    border-color: rgb(0,0,0);
+    
+    padding: 5px 0px;
+    text-align: center;
+    width: 325px;
+}
